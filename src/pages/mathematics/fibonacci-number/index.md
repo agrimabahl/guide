@@ -25,6 +25,15 @@ space than expected.
 
 Something that is fascinating about the Fibonnaci sequence is its existence in nature. It can be found in flower petals, seed heads, pinecones, shells, hurricanes, and so much more.
 
+A simple algorithm to generate a Fibonacci sequence of size n -
+
+Fib(n)
+	if n <= 1 then
+	     Return n;
+	else
+	     Return Call Fib(n-1) + Call Fib(n-2);
+	endif
+
 ### More Information:
 * A lot of information about Fibonacci numbers, including the proof of Binet's formula, can be found [here](https://en.wikipedia.org/wiki/Fibonacci_number).
 * [The On-Line Encyclopedia of Integer Sequences: Fibonacci numbers](http://oeis.org/A000045)
